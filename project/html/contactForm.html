@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<form method="GET" action="Message.html" name="Feedback">
+    <fieldset>
+       
+        <h1>
+            <div style="position: right; bottom: 88px; left: 175px;">
+                <b>HOW TO REACH ME ???</b>
+            </div>
+        </h1>
+        <h2>
+            <p>Thank you tons for getting here</p>
+        </h2>
+        <fieldset>
+  
+            <label><input type="radio" name="optradio" checked>Under18</label>
+            <label><input type="radio" name="optradio">Above18</label>
+  
+            <legend><b>when do you wanna meet ?? AND what do you wanna learn ??</b></legend>
+            <label for="from">First choice*</label>
+            <select id="from" name="from" required class="focus-only">
+                <option selected></option>
+                <option value="Your Current Location">HTML</option>
+                <option value="Calgary">CSS</option>
+                <option value="Edmonton">JavaScript</option>
+                <option value="Your Home">None</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="to">Second choice*</label>
+            <select id="to" name="to" required class="focus-only">
+                <option selected></option>
+                <option value="GAZA">HTML</option>
+                <option value="Jerusalem">CSS</option>
+                <option value="London">JavaScript</option>
+                <option value="Ontario">None</option>
+            </select>
+            <br><br>
+            <label for="Departing">startingDate*</label>
+            <input class="focus-only" type="date" id="Departing" name="Departing" required>
+  
+            <label for="Arriving">EndDate*</label>
+            <input class="focus-only" type="date" id="Arriving" name="Arriving" required>
+            <br><br>
+            
+            <label> Number of hours needed
+                <input class="focus-only" type="number" name="age" value="0" size="30" min="0" max="10" step="1">
+            </label>
+            <br><br>
+
+            <label> Number of days needed
+                <input class="focus-only" type="number" name="age" value="0" size="30" min="0" max="10" step="1">
+            </label>
+            <br><br>
+            <div class="preference">
+                <label for="hotel">Interested in learning outside activities</label>
+                <input type="checkbox" name="hotel" id="hotel">
+            </div>
+  
+            <div class="preference">
+                <label for="cab">Interested in learning inside activities </label>
+                <input type="checkbox" name="cab" id="cab">
+            </div>
+  
+            
+            
+        </fieldset>
+  
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+  
+            <label for="Fullname">Full Name</label>
+            <input type="text" id="Fullname" name="Fullname" placeholder="Huda Elbayok" required placeholder="Enter Full Name" class="focus-only"><br><br>
+            <label for="Fullname">Birth date </label>
+            <input type="date" id="age" name="Birth date" placeholder="Huda Elbayok" required placeholder="Enter Full Name" class="focus-only"><br><br>
+            <label for="telephone">Phone</label>
+            <input type="tel" name="telephone" placeholder="403-000-0000" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" required placeholder="Please insert your telephone number" br><br><br>
+            <label for="email" class="focus-only">Email</label>
+            <input type="email" id="email" name="email" placeholder="helba555@gmail.ca" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required placeholder="Please insert your Email address" maxlength="30" class="focus-only"><br><br>
+  
+            <a href="Message.html"> <input type="submit" value="Search" class="button"></a>
+            <input type="reset" value="Clear" class="button">
+        </fieldset>
+  
+    </fieldset>
+  </form>
+  
+  <div class="footer">
+    <p><footer>&copy; Huda Copyright 2021</footer>
+    </p>
+  </div>
+  
+  </body>
+
+</html>
